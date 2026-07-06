@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# Regenerable eval outputs (run `python eval/harness.py` to recreate)
+eval/eval_results.json
+eval/eval_summary.md
+eval/baseline_*.json
+examples/traces/case_1.json
+examples/traces/trace_*.json
